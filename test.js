@@ -8,7 +8,7 @@ if (number % 1119 == 0 && number >= 100000000) {
   while (number % 1119 != 0) {
     number++;
   }
-  console.log(`This number is not divisible: ${number}`);
+  console.log(`This number is divisible: ${number}`);
 }
 
 let list = number.toString().split('').map(Number);
